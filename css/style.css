@@ -53,7 +53,8 @@ nav ul > li {
   background-image: url("../images/header_bg.png"),
     url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right, left;
+  background-position: right, left;
+  align-items: center;
 }
 .banner-info {
   margin-left: 226px;
@@ -67,10 +68,14 @@ nav ul > li {
 .banner-title {
   font-size: 85px;
   margin-bottom: 20px;
+  line-height: normal; 
 }
 .banner-description {
   font-size: 18px;
   margin-bottom: 30px;
+}
+.btn-banner{
+  margin-bottom: 184px;
 }
 .banner-img {
   width: 584px;
